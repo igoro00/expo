@@ -40,10 +40,7 @@ import java.util.concurrent.ConcurrentLinkedQueue
 import expo.modules.camera.utils.mapX
 import expo.modules.camera.utils.mapY
 import kotlin.math.roundToInt
-import kotlin.math.max
-import kotlin.math.min
 import android.view.WindowManager
-import android.util.Log
 
 class ExpoCameraView(
   context: Context,
