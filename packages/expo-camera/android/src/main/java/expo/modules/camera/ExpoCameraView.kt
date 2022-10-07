@@ -199,8 +199,8 @@ class ExpoCameraView(
 
   private fun transformBarCodeScannerResultToViewCoordinates(barCode: BarCodeScannerResult) {
     val cornerPoints = barCode.cornerPoints
-    
-    //For some reason they're swapped, I don't know anymore...
+
+    // For some reason they're swapped, I don't know anymore...
     val cameraWidth = barCode.referenceImageHeight
     val cameraHeight = barCode.referenceImageWidth
 
